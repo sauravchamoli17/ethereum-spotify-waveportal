@@ -1,0 +1,117 @@
+*{
+  font-family: "CircularStdBold", system, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;  
+  margin-top: 64px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  line-height: 25px;
+}
+
+.waveButton, .connectButton {
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.waveButton:hover, .connectButton:hover{
+  opacity: 0.8;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.musicInput input{
+  display: block;
+  border: none;
+  outline: none;
+  padding: 20px 5px 0px 5px;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  width: 100%;
+}
+
+.musicInput .greenBorder{
+  border-bottom: 3px solid rgb(29, 185, 84);
+  margin-top: 2px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.musicInput input:focus + .greenBorder{
+  opacity: 1;
+}
+
+.loginButton{
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(29, 185, 84);
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 17px 35px;
+  opacity: 0.95;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.loginButton:hover{
+  opacity: 1.0;
+}
