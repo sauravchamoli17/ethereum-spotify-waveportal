@@ -27,6 +27,8 @@ export default function App() {
       if (accounts.length !== 0) {
         const account = accounts[0];
         setCurrentAccount(account);
+      } else{
+        setCurrentAccount('');
       }
     } catch (e) {
       console.log(e);
@@ -39,7 +41,7 @@ export default function App() {
 
   useEffect(() => {
     document.title = 'Ethereum Spotify Waveportal';
-    checkIfWalletIsConnected();
+    setInterval(checkIfWalletIsConnected, 500);
   }, []);
 
   return (
@@ -78,7 +80,7 @@ export default function App() {
 
       {
         currentAccount == '' ?
-          <button class="connectButton" onClick={connectWallet}>
+          <button className="connectButton" onClick={connectWallet}>
             Connect Wallet
           </button>
           :
