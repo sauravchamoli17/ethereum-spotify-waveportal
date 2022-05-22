@@ -12,4 +12,5 @@ This project demonstrates a basic blockchain use case. It lets the users to send
 
 ## To run the project:-
 - cd frontend 
+- npm install
 - npm start
