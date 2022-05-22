@@ -40,6 +40,7 @@ h2{
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
+  margin-top: 2rem;
 }
 
 .header {
@@ -53,6 +54,7 @@ h2{
   color: gray;
   margin-top: 16px;
   line-height: 25px;
+  font-size:  1rem;
 }
 
 .waveButton, .connectButton {
@@ -103,6 +105,9 @@ h2{
   text-transform: uppercase;
   background-color: rgb(29, 185, 84);
   color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
   border-radius: 30px;
   padding: 17px 35px;
   opacity: 0.95;
