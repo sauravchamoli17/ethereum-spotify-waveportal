@@ -3,6 +3,7 @@
 This project demonstrates a basic blockchain use case. It lets the users to send a spotify song recommendation to you, have that data stored on the blockchain and if they're lucky they might even win some ETH. The contract is deployed on rinkeby ethereum test network.
 
 ## Project Configuration:-
+- npm install
 - Rename the .env.example to .env.
 - Create a project on [Alchemy](https://www.alchemy.com), use rinkeby test network. Grab the api key and paste it in the .env file with the varibale name STAGING_ALCHEMY_KEY.
 - Grab your wallet private key and paste it in the .env file with the variable name PRIVATE_KEY.
