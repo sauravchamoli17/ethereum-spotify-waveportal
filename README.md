@@ -2,6 +2,8 @@
 
 This project demonstrates a basic blockchain use case. It lets the users to send a spotify song recommendation to you, have that data stored on the blockchain and if they're lucky they might even win some ETH. The contract is deployed on rinkeby ethereum test network.
 
+[Live Demo](https://ethereum-spotify-waveportal.vercel.app/)
+
 ## Project Configuration:-
 - npm install
 - Rename the .env.example to .env.
